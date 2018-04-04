@@ -31,3 +31,15 @@ contract MyContract {
   }
 }
 ```
+
+## Manageable.sol
+
+This is intended as a basic access control mechanism. To use it:
+
+```
+import "Manageable.sol";
+
+contract MyContract is Manageable {
+  // ...
+}
+```
